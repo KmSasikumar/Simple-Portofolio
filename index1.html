@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,20 +13,22 @@
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>K. Sasikumar</h1>
+        <div class="logo">K. Sasikumar</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('classes')">Classes</a></li>
+                <li><a href="#" onclick="showSection('activities')">Activities</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Theme</button>
     </header>
 
-    <div class="menu-icon" onclick="toggleSidebar()">☰</div>
-    <div class="sidebar" id="sidebar">
-        <ul>
-            <li><a href="#" onclick="showSection('home')">Home</a></li>
-            <li><a href="#" onclick="showSection('classes')">Classes</a></li>
-            <li><a href="#" onclick="showSection('activities')">Activities</a></li>
-            <li><a href="#" onclick="showSection('projects')">Projects</a></li>
-        </ul>
-    </div>
+
 
     <div class="content">
         <section id="home" class="active">
@@ -34,7 +37,7 @@
             <br>
             <br>
             <br>
-            <br>            
+            <br>
             <br>
             <br>
             <br>
@@ -56,10 +59,22 @@
             <br>
             <h3>About Me</h3>
             <p>Hi, my name is K. Sasi Kumar, and I am currently pursuing my education at VIT Bhopal University.</p>
-            <p><strong>Academic Pursuits:</strong> As a student at VIT Bhopal University, I am engaged in a rigorous academic program that combines theoretical knowledge with practical applications. The university is known for its innovative curriculum, state-of-the-art facilities, and a strong emphasis on research and development.</p>
-            <p><strong>University Overview:</strong> VIT Bhopal University is part of the prestigious VIT group of institutions, which is renowned for its excellence in engineering and technology education in India. The Bhopal campus provides a dynamic and multicultural environment that fosters learning and personal growth. The university offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines.</p>
-            <p><strong>Personal Development:</strong> In addition to my academic pursuits, I am involved in various extracurricular activities and student organizations that help me develop my leadership and teamwork skills. VIT Bhopal encourages students to participate in hackathons, workshops, and seminars, which provide valuable hands-on experience and exposure to industry trends.</p>
-            <p><strong>Future Aspirations:</strong> I am committed to leveraging the knowledge and skills I gain at VIT Bhopal to build a successful career in my chosen field. The university's strong industry connections and focus on employability equip students with the tools needed to excel in the competitive job market.</p>
+            <p><strong>Academic Pursuits:</strong> As a student at VIT Bhopal University, I am engaged in a rigorous
+                academic program that combines theoretical knowledge with practical applications. The university is
+                known for its innovative curriculum, state-of-the-art facilities, and a strong emphasis on research and
+                development.</p>
+            <p><strong>University Overview:</strong> VIT Bhopal University is part of the prestigious VIT group of
+                institutions, which is renowned for its excellence in engineering and technology education in India. The
+                Bhopal campus provides a dynamic and multicultural environment that fosters learning and personal
+                growth. The university offers a wide range of undergraduate, postgraduate, and doctoral programs across
+                various disciplines.</p>
+            <p><strong>Personal Development:</strong> In addition to my academic pursuits, I am involved in various
+                extracurricular activities and student organizations that help me develop my leadership and teamwork
+                skills. VIT Bhopal encourages students to participate in hackathons, workshops, and seminars, which
+                provide valuable hands-on experience and exposure to industry trends.</p>
+            <p><strong>Future Aspirations:</strong> I am committed to leveraging the knowledge and skills I gain at VIT
+                Bhopal to build a successful career in my chosen field. The university's strong industry connections and
+                focus on employability equip students with the tools needed to excel in the competitive job market.</p>
             <br>
             <br>
             <br>
@@ -67,15 +82,18 @@
             <br>
             <h3>Achievements</h3>
             <br>
-            <img src="https://i.postimg.cc/ZK4ykFcv/Untitled.jpg" alt="Achievements Image" style="width: 100%; max-width: 400px; display: block; margin: auto;">
+            <img src="https://i.postimg.cc/ZK4ykFcv/Untitled.jpg" alt="Achievements Image"
+                style="width: 100%; max-width: 400px; display: block; margin: auto;">
             <br>
             <p>Completed the intermediate at A.P.</p>
             <br>
-            <img src="https://i.postimg.cc/RV2hS71T/v5-Eb3cwq7tsa9-OAT-Kh3gv-GWsk73aaod-PTr-Te1-Irg3d-Aur-F0p-EAZTi6w3xn-XPWTGk-P9-Xx8yxb-OLq8b-F4-ecjs-QODud4-AQEy06.png" alt="Achievements Image" style="width: 100%; max-width: 400px; display: block; margin: auto;">
+            <img src="https://i.postimg.cc/RV2hS71T/v5-Eb3cwq7tsa9-OAT-Kh3gv-GWsk73aaod-PTr-Te1-Irg3d-Aur-F0p-EAZTi6w3xn-XPWTGk-P9-Xx8yxb-OLq8b-F4-ecjs-QODud4-AQEy06.png"
+                alt="Achievements Image" style="width: 100%; max-width: 400px; display: block; margin: auto;">
             <br>
             <p>Learnt the languages of C++, Python, Depend on my skills.</p>
             <br>
-            <img src="https://i.postimg.cc/CK7wqk8X/DKu1eovb872-Fb60-6-Hq-Wd-UFLhh-X3o7-F64j-Oq-FY-UQv-BXT1g-Aj5-B6-w6-NEIMu-BKkobv0-Nvvu-M4wod-Kg-Mq-SWh33-Vcmz-V9i-L081-Nvo-C.jpg" alt="Achievements Image" style="width: 100%; max-width: 400px; display: block; margin: auto;">
+            <img src="https://i.postimg.cc/CK7wqk8X/DKu1eovb872-Fb60-6-Hq-Wd-UFLhh-X3o7-F64j-Oq-FY-UQv-BXT1g-Aj5-B6-w6-NEIMu-BKkobv0-Nvvu-M4wod-Kg-Mq-SWh33-Vcmz-V9i-L081-Nvo-C.jpg"
+                alt="Achievements Image" style="width: 100%; max-width: 400px; display: block; margin: auto;">
             <br>
             <p>Become a successful software developer.</p>
         </section>
@@ -104,7 +122,8 @@
             <br>
             <br>
             <h3>5th - 7th Grade</h3>
-            <img src="https://i.postimg.cc/0yBjVrCb/Dj-Ea-QFr-V9-Eo-WZelc7-Nw-Vrup5pzf6ao-NC94f-Kh-FNygf-O09-POozt-v-VIXHKor-Ekop3xc-HKc-Weh-Pe-Kkl-Vp10-Yv-Ee-R34-F5v-Abt9d-NNt9.png" alt="Achievements Image" style="width: 100%; max-width: 300px; display: block; margin: auto;">
+            <img src="https://i.postimg.cc/0yBjVrCb/Dj-Ea-QFr-V9-Eo-WZelc7-Nw-Vrup5pzf6ao-NC94f-Kh-FNygf-O09-POozt-v-VIXHKor-Ekop3xc-HKc-Weh-Pe-Kkl-Vp10-Yv-Ee-R34-F5v-Abt9d-NNt9.png"
+                alt="Achievements Image" style="width: 100%; max-width: 300px; display: block; margin: auto;">
             <div class="card">
                 <p>School: Narayana School</p>
                 <ul>
@@ -117,7 +136,8 @@
             </div>
 
             <h3>8th - 10th Grade</h3>
-            <img src="https://i.postimg.cc/W1gMDhJL/acc.jpg" alt="Achievements Image" style="width: 100%; max-width: 300px; display: block; margin: auto;">
+            <img src="https://i.postimg.cc/W1gMDhJL/acc.jpg" alt="Achievements Image"
+                style="width: 100%; max-width: 300px; display: block; margin: auto;">
             <div class="card">
                 <p>School: Accord School</p>
                 <ul>
@@ -130,7 +150,8 @@
             </div>
 
             <h3>Inter 1st-2nd</h3>
-            <img src="https://i.postimg.cc/0yBjVrCb/Dj-Ea-QFr-V9-Eo-WZelc7-Nw-Vrup5pzf6ao-NC94f-Kh-FNygf-O09-POozt-v-VIXHKor-Ekop3xc-HKc-Weh-Pe-Kkl-Vp10-Yv-Ee-R34-F5v-Abt9d-NNt9.png" alt="Achievements Image" style="width: 100%; max-width: 300px; display: block; margin: auto;">
+            <img src="https://i.postimg.cc/0yBjVrCb/Dj-Ea-QFr-V9-Eo-WZelc7-Nw-Vrup5pzf6ao-NC94f-Kh-FNygf-O09-POozt-v-VIXHKor-Ekop3xc-HKc-Weh-Pe-Kkl-Vp10-Yv-Ee-R34-F5v-Abt9d-NNt9.png"
+                alt="Achievements Image" style="width: 100%; max-width: 300px; display: block; margin: auto;">
             <div class="card">
                 <p>School: Narayana</p>
                 <ul>
@@ -172,38 +193,47 @@
             <br>
             <div class="card">
                 <h3>Spell Bee</h3>
-                <img src="https://i.postimg.cc/yds4Jmvt/Untitled.jpg" alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
-                <p>"Participated in the Spell Bee competition, showcasing my proficiency in vocabulary and spelling."</p>
+                <img src="https://i.postimg.cc/yds4Jmvt/Untitled.jpg" alt="Achievements Image"
+                    style="width: 100%; max-width: 350px; display: block; margin: auto;">
+                <p>"Participated in the Spell Bee competition, showcasing my proficiency in vocabulary and spelling."
+                </p>
             </div>
             <div class="card">
                 <h3>Skating, Chess competition</h3>
-                <img src="https://i.postimg.cc/L6KLbRHH/download.jpg" alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
-                <p>"Competed in Skating and Chess competitions, demonstrating my agility and strategic thinking skills."</p>
-           
+                <img src="https://i.postimg.cc/L6KLbRHH/download.jpg" alt="Achievements Image"
+                    style="width: 100%; max-width: 350px; display: block; margin: auto;">
+                <p>"Competed in Skating and Chess competitions, demonstrating my agility and strategic thinking skills."
+                </p>
+
 
             </div>
             <br>
             <div class="card">
-            <h3>Debate competition</h3>
-            <br>
-<!-- Image container with the image directly linked -->
-                <img id="achievementsImage" src="https://i.postimg.cc/DftMMdKG/images.png" alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
-            <br>
-            <p>"Participated in debate competitions, showcasing my public speaking and critical thinking abilities."</p>
-            <br>
+                <h3>Debate competition</h3>
+                <br>
+                <!-- Image container with the image directly linked -->
+                <img id="achievementsImage" src="https://i.postimg.cc/DftMMdKG/images.png" alt="Achievements Image"
+                    style="width: 100%; max-width: 350px; display: block; margin: auto;">
+                <br>
+                <p>"Participated in debate competitions, showcasing my public speaking and critical thinking abilities."
+                </p>
+                <br>
             </div>
             <div class="card">
-            <h3>NPTEL</h3>
-            <br>
-<!-- Image container with the image directly linked -->
-                <img id="achievementsImage" src="https://i.postimg.cc/qgH0JP6V/images.jpg" alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
-            <br>
+                <h3>NPTEL</h3>
+                <br>
+                <!-- Image container with the image directly linked -->
+                <img id="achievementsImage" src="https://i.postimg.cc/qgH0JP6V/images.jpg" alt="Achievements Image"
+                    style="width: 100%; max-width: 350px; display: block; margin: auto;">
+                <br>
 
-            <p>"Completed NPTEL's Cloud Computing course, gaining in-depth knowledge of cloud architecture and services."</p>
-            <br>
-    <h2>View All Certifications</h2>
-    <p>Explore all certifications and achievements in detail:</p>
-    <p><a href="https://drive.google.com/drive/u/0/folders/11C9E-WkAZpL7TxTUPfbLsR21wE0d1IIT" target="_blank">View Certifications </a></p>
+                <p>"Completed NPTEL's Cloud Computing course, gaining in-depth knowledge of cloud architecture and
+                    services."</p>
+                <br>
+                <h2>View All Certifications</h2>
+                <p>Explore all certifications and achievements in detail:</p>
+                <p><a href="https://drive.google.com/drive/u/0/folders/11C9E-WkAZpL7TxTUPfbLsR21wE0d1IIT"
+                        target="_blank">View Certifications </a></p>
 
             </div>
         </section>
@@ -231,131 +261,181 @@
             <br>
             <br>
             <div class="card">
-            <h3>Project 1</h3>
-            <br>
-                <img id="achievementsImage" src="https://i.postimg.cc/W3kNxdVS/mo.png" alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
-            <br>
-            <p><strong>Moving Object Detection</strong></p>
-            <br>
-<p><strong>Download project details from: </strong><a href="https://drive.google.com/drive/u/0/folders/1JslHYYG_-ezKmV7ZkbDo2aRSR3axNMHt">Google Drive</a>.</p>
-<br>
+                <h3>Project 1</h3>
+                <br>
+                <img id="achievementsImage" src="https://i.postimg.cc/W3kNxdVS/mo.png" alt="Achievements Image"
+                    style="width: 100%; max-width: 350px; display: block; margin: auto;">
+                <br>
+                <p><strong>Moving Object Detection</strong></p>
+                <br>
+                <h4>Project Overview</h4>
+                <p>A computer vision system built with Python and OpenCV to detect and track moving objects in real-time
+                    video feeds, achieving over 94% accuracy. This project utilizes background subtraction and contour
+                    detection techniques to identify and track objects of interest.</p>
+
+                <h4>Technology Used</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>OpenCV</li>
+                </ul>
+
+                <br>
+                <p><strong>Download project details from: </strong><a
+                        href="https://drive.google.com/drive/u/0/folders/1JslHYYG_-ezKmV7ZkbDo2aRSR3axNMHt">Google
+                        Drive</a>.</p>
+                <br>
             </div>
             <div class="card">
-            <h3>Project 2</h3>
-            <br>
-                <img id="achievementsImage" src="https://i.postimg.cc/GhBQVrTt/The-Future-of-Smart-Farming-png-g4o71eawgl.jpg" alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
-            <br>
-            <p> <strong>Smart Agriculture </strong></p>
-            <br>
-        <h4>Introduction</h4>
-        <p>Organic farming emerged in response to unsustainable conventional methods, gaining traction in the mid-20th century. Agricultural system modeling evolved significantly through pioneers like Earl Heady, enhancing decision-making and policy evaluation.</p>
-        <h4>Objectives</h4>
-        <ul>
-            <li>Evaluate and address challenges in soil fertility management for organic farmers.</li>
-            <li>Develop innovative pest control strategies suitable for organic farming.</li>
-            <li>Explore methods to improve the market competitiveness of organic produce.</li>
-        </ul>
-        <h4>Project Outcomes</h4>
-        <ul>
-            <li>Practical solutions for sustainable soil fertility management.</li>
-       <li>Novel approaches for integrated pest management in organic practices.</li>
-            <li>Recommendations for enhancing market presence and economic viability of organic products.</li>
-        </ul>
-        <h4>Definition</h4>
-        <p>Organic farming, valued for its environmental and health benefits, faces challenges like soil fertility management, pest control, and market competition.</p>
-        <h4>Task Performed</h4>
-        <ul>
-            <li>Design and development of websites and platforms by Full Stack Developers.</li>
-            <li>Front-end architecture, back-end development, and ensuring cross-platform optimization.</li>
-            <li>Creating servers, databases, and APIs for functionality.</li>
-            <li>Seeing projects through conception to finished products and ensuring responsiveness.</li>
-        </ul>
+                <h3>Project 2</h3>
+                <br>
+                <img id="achievementsImage"
+                    src="https://i.postimg.cc/GhBQVrTt/The-Future-of-Smart-Farming-png-g4o71eawgl.jpg"
+                    alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
+                <br>
+                <p> <strong>Smart Agriculture </strong></p>
+                <br>
+                <h4>Introduction</h4>
+                <p>Organic farming emerged in response to unsustainable conventional methods, gaining traction in the
+                    mid-20th century. Agricultural system modeling evolved significantly through pioneers like Earl
+                    Heady, enhancing decision-making and policy evaluation.</p>
+                <h4>Objectives</h4>
+                <ul>
+                    <li>Evaluate and address challenges in soil fertility management for organic farmers.</li>
+                    <li>Develop innovative pest control strategies suitable for organic farming.</li>
+                    <li>Explore methods to improve the market competitiveness of organic produce.</li>
+                </ul>
+                <h4>Project Outcomes</h4>
+                <ul>
+                    <li>Practical solutions for sustainable soil fertility management.</li>
+                    <li>Novel approaches for integrated pest management in organic practices.</li>
+                    <li>Recommendations for enhancing market presence and economic viability of organic products.</li>
+                </ul>
+                <h4>Definition</h4>
+                <p>Organic farming, valued for its environmental and health benefits, faces challenges like soil
+                    fertility management, pest control, and market competition.</p>
+                <h4>Task Performed</h4>
+                <ul>
+                    <li>Design and development of websites and platforms by Full Stack Developers.</li>
+                    <li>Front-end architecture, back-end development, and ensuring cross-platform optimization.</li>
+                    <li>Creating servers, databases, and APIs for functionality.</li>
+                    <li>Seeing projects through conception to finished products and ensuring responsiveness.</li>
+                </ul>
 
-        <h4>Technology Used</h4>
-        <ul>
-            <li>Django</li>
-            <li>MySQL</li>
-            <li>HTML, CSS, JavaScript</li>
-        </ul>
+                <h4>Technology Used</h4>
+                <ul>
+                    <li>Django</li>
+                    <li>MySQL</li>
+                    <li>HTML, CSS, JavaScript</li>
+                </ul>
 
-        <h4>System Analysis and Design</h4>
-        <h5>Existing System</h5>
-        <p>Manual product management without proper categorization and querying capabilities.</p>
-        <h5>Proposed System</h5>
-        <p>Online platform for direct buying and selling of agricultural products with categorized listings and simplified data management.</p>
+                <h4>System Analysis and Design</h4>
+                <h5>Existing System</h5>
+                <p>Manual product management without proper categorization and querying capabilities.</p>
+                <h5>Proposed System</h5>
+                <p>Online platform for direct buying and selling of agricultural products with categorized listings and
+                    simplified data management.</p>
 
-        <h4>Experience</h4>
-        <ul>
-            <li>Hands-on experience in communication, decision-making, and web development.</li>
-            <li>Improved skills in deriving insights from data and implementing them into applications.</li>
-        </ul>
+                <h4>Experience</h4>
+                <ul>
+                    <li>Hands-on experience in communication, decision-making, and web development.</li>
+                    <li>Improved skills in deriving insights from data and implementing them into applications.</li>
+                </ul>
 
-        <h4>Conclusion</h4>
-        <p>The project offers a platform for farmers to embrace organic farming with tailored technological solutions, enhancing sustainability and productivity.</p>
-<br>
-<p><strong>Download project details from: </strong><a href="https://drive.google.com/drive/u/0/folders/11C9E-WkAZpL7TxTUPfbLsR21wE0d1IIT" target="_blank">Google Drive</a>.</p>
-    
+                <h4>Conclusion</h4>
+                <p>The project offers a platform for farmers to embrace organic farming with tailored technological
+                    solutions, enhancing sustainability and productivity.</p>
+                <br>
+                <p><strong>Download project details from: </strong><a
+                        href="https://drive.google.com/drive/u/0/folders/11C9E-WkAZpL7TxTUPfbLsR21wE0d1IIT"
+                        target="_blank">Google Drive</a>.</p>
+
             </div>
             <div class="card">
-            <br>
+                <br>
 
                 <h3>Project 3</h3>
-            <br>
-                <img id="achievementsImage" src="https://i.postimg.cc/qgH0JP6V/images.jpg" alt="Achievements Image" style="width: 100%; max-width: 350px; display: block; margin: auto;">
-            <br>
+                <br>
+                <img id="achievementsImage" src="https://i.postimg.cc/qgH0JP6V/images.jpg" alt="Achievements Image"
+                    style="width: 100%; max-width: 350px; display: block; margin: auto;">
+                <br>
 
 
                 <p> <strong>User Notifier </strong></p>
- <br>
+                <br>
 
-        <h4>Project Overview</h4>
-        <p>The "UserNotifier" project enhances road safety and reduces traffic congestion through a mobile application that provides real-time notifications about accidents and traffic situations. The app utilizes advanced GPS and sensor data technologies to deliver timely alerts, empowering users to make informed travel route decisions.</p>
+                <h4>Project Overview</h4>
+                <p>The "UserNotifier" project enhances road safety and reduces traffic congestion through a mobile
+                    application that provides real-time notifications about accidents and traffic situations. The app
+                    utilizes advanced GPS and sensor data technologies to deliver timely alerts, empowering users to
+                    make informed travel route decisions.</p>
 
-        <h4>Objectives</h4>
-        <ul>
-            <li><strong>Improve Road Safety:</strong> Provide real-time alerts about accidents and hazards.</li>
-            <li><strong>Reduce Traffic Congestion:</strong> Notify users about traffic conditions and suggest alternative routes.</li>
-            <li><strong>Enhance Emergency Response:</strong> Inform emergency services about accident locations and traffic situations for better routing of emergency vehicles.</li>
-            <li><strong>Promote User Engagement:</strong> Encourage community involvement in road safety through valuable information and alerts.</li>
-        </ul>
+                <h4>Objectives</h4>
+                <ul>
+                    <li><strong>Improve Road Safety:</strong> Provide real-time alerts about accidents and hazards.</li>
+                    <li><strong>Reduce Traffic Congestion:</strong> Notify users about traffic conditions and suggest
+                        alternative routes.</li>
+                    <li><strong>Enhance Emergency Response:</strong> Inform emergency services about accident locations
+                        and traffic situations for better routing of emergency vehicles.</li>
+                    <li><strong>Promote User Engagement:</strong> Encourage community involvement in road safety through
+                        valuable information and alerts.</li>
+                </ul>
 
-        <h4>Methodology</h4>
-        <p>The project employs a mixed-methods approach, integrating qualitative insights with quantitative data analysis. Data from local sources and traffic management authorities are used to develop accurate algorithms for real-time notifications, with iterative testing ensuring system reliability and accuracy.</p>
+                <h4>Methodology</h4>
+                <p>The project employs a mixed-methods approach, integrating qualitative insights with quantitative data
+                    analysis. Data from local sources and traffic management authorities are used to develop accurate
+                    algorithms for real-time notifications, with iterative testing ensuring system reliability and
+                    accuracy.</p>
 
-        <h4>Key Findings</h4>
-        <ul>
-            <li><strong>Effectiveness:</strong> Preliminary results demonstrate the app's success in providing timely alerts, reducing traffic congestion, and improving emergency response times.</li>
-            <li><strong>User Engagement:</strong> High levels of user engagement and response rates highlight the app's utility and areas for further optimization.</li>
-            <li><strong>Unexpected Insights:</strong> Notable user engagement levels provide insights for future development and improvement.</li>
-        </ul>
+                <h4>Key Findings</h4>
+                <ul>
+                    <li><strong>Effectiveness:</strong> Preliminary results demonstrate the app's success in providing
+                        timely alerts, reducing traffic congestion, and improving emergency response times.</li>
+                    <li><strong>User Engagement:</strong> High levels of user engagement and response rates highlight
+                        the app's utility and areas for further optimization.</li>
+                    <li><strong>Unexpected Insights:</strong> Notable user engagement levels provide insights for future
+                        development and improvement.</li>
+                </ul>
 
-        <h4>Advantages</h4>
-        <ol>
-            <li><strong>Improved Safety:</strong> Real-time alerts help users make safer driving decisions.</li>
-            <li><strong>Reduced Congestion:</strong> Alternative route suggestions lead to shorter travel times and better traffic flow.</li>
-            <li><strong>Enhanced Emergency Response:</strong> Faster and more efficient routing of emergency vehicles.</li>
-            <li><strong>User Engagement:</strong> Increased user satisfaction and community involvement in road safety.</li>
-        </ol>
+                <h4>Advantages</h4>
+                <ol>
+                    <li><strong>Improved Safety:</strong> Real-time alerts help users make safer driving decisions.</li>
+                    <li><strong>Reduced Congestion:</strong> Alternative route suggestions lead to shorter travel times
+                        and better traffic flow.</li>
+                    <li><strong>Enhanced Emergency Response:</strong> Faster and more efficient routing of emergency
+                        vehicles.</li>
+                    <li><strong>User Engagement:</strong> Increased user satisfaction and community involvement in road
+                        safety.</li>
+                </ol>
 
-        <h4>Challenges</h4>
-        <ol>
-            <li><strong>Data Accuracy:</strong> Ensuring reliable data sources to avoid misleading notifications.</li>
-            <li><strong>Privacy Concerns:</strong> Balancing data collection with user privacy protection.</li>
-            <li><strong>Technological Limitations:</strong> Dependence on GPS and mobile networks, which can be affected by technical issues.</li>
-            <li><strong>User Adoption:</strong> Encouraging widespread use and building trust among users.</li>
-        </ol>
+                <h4>Challenges</h4>
+                <ol>
+                    <li><strong>Data Accuracy:</strong> Ensuring reliable data sources to avoid misleading
+                        notifications.</li>
+                    <li><strong>Privacy Concerns:</strong> Balancing data collection with user privacy protection.</li>
+                    <li><strong>Technological Limitations:</strong> Dependence on GPS and mobile networks, which can be
+                        affected by technical issues.</li>
+                    <li><strong>User Adoption:</strong> Encouraging widespread use and building trust among users.</li>
+                </ol>
 
-        <h4>Conclusion</h4>
-        <p>The UserNotifier project represents a significant advancement in improving road safety and reducing traffic congestion. By providing real-time notifications and leveraging user engagement, the app has the potential to revolutionize transportation systems, save lives, and improve overall road efficiency. Future work will focus on enhancing P2P integration and addressing current limitations to further refine the system.</p>
+                <h4>Conclusion</h4>
+                <p>The UserNotifier project represents a significant advancement in improving road safety and reducing
+                    traffic congestion. By providing real-time notifications and leveraging user engagement, the app has
+                    the potential to revolutionize transportation systems, save lives, and improve overall road
+                    efficiency. Future work will focus on enhancing P2P integration and addressing current limitations
+                    to further refine the system.</p>
 
-        <p>This project underscores my commitment to leveraging technology for societal benefits, showcasing my skills in data analysis, app development, and problem-solving within the context of real-world challenges.</p>
-    <br>
-<p><strong>Download project details from: </strong><a href="https://drive.google.com/drive/u/0/folders/1cRihLLCcnpdr86Huu86lz7artJuKg8aV">Google Drive</a>.</p>
+                <p>This project underscores my commitment to leveraging technology for societal benefits, showcasing my
+                    skills in data analysis, app development, and problem-solving within the context of real-world
+                    challenges.</p>
+                <br>
+                <p><strong>Download project details from: </strong><a
+                        href="https://drive.google.com/drive/u/0/folders/1cRihLLCcnpdr86Huu86lz7artJuKg8aV">Google
+                        Drive</a>.</p>
 
             </div>
-    
- </section>
-</div>
+
+        </section>
+    </div>
     <footer>
         <p>Get in touch at <a href="mailto:Kommamani012@gmail.com">Kommamani012@gmail.com</a>.</p>
     </footer>
@@ -363,4 +443,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
