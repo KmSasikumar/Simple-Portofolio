@@ -1,5 +1,5 @@
 
-# ⚡ K. Sasikumar's Portfolio - Visual Project Overview
+# ⚡ K. Sasikumar's Simple Portfolio
 
 ## 🚀 Elevator Pitch
 A high-performance, single-page personal portfolio website designed to professionally showcase academic achievements and technical projects. Incorporates a custom-built dark/light mode engine and instant client-side navigation.
@@ -77,8 +77,3 @@ sequenceDiagram
 *   **Zero-Dependency Architecture**: Built a fully functional SPA using only **Vanilla JavaScript**, demonstrating deep understanding of the DOM API without relying on libraries like React or Vue.
 *   **Resilient State Management**: Implemented a robust theming strategy that gracefully falls back to `window.matchMedia` API if no user preference is found in `localStorage`.
 *   **Performance Optimization**: Achieved 100/100 Lighthouse performance scores by eliminating render-blocking resources and using lightweight CSS animations.
-
-## 📄 Resume Bullet Points
-*   Developed a high-performance **Single Page Application (SPA)** portfolio using **Semantic HTML5** and **Vanilla JavaScript**, reducing load times by **40%** compared to framework-based alternatives.
-*   Engineered a custom **Dark Mode System** utilizing **CSS Variables** and **LocalStorage**, providing seamless personalization and automatic system preference detection.
-*   Designed a responsive, mobile-first user interface with **CSS Flexbox/Grid**, ensuring cross-browser compatibility and consistent visual fidelity across all devices.
